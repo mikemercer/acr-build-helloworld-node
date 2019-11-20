@@ -17,7 +17,7 @@ This Node.js application is for use in demonstrating scenarios for Azure Contain
 
 This project includes the following Dockerfiles:
 
-* *Dockerfile* - Non-parameterized Dockerfile for building the application. References a base image in Docker Hub.
+* *Dockerfiles* - Non-parameterized Dockerfile for building the application. References a base image in Docker Hub.
 * *Dockerfile-app* - Parameterized, accepts the `REGISTRY_NAME` argument to specify the FQDN of the container registry from which the base image is pulled.
 * *Dockerfile-base* - Defines a base image for the application defined in *Dockerfile-app*.
 
